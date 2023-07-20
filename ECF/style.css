@@ -1,0 +1,510 @@
+@font-face {
+    font-family: Rajdhani;
+    src: url(./assets/fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url(./assets/fonts/Barlow-Thin.ttf);
+}
+
+:root {
+    --color1: #D92332;
+    --color2: #D94350;
+    --color3: #D9777F;
+    --black: #262526;
+    --white: #f2f2f2;
+}
+
+h2,
+#cleTransition {
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    color: var(--color1);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 20px;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;      
+}
+
+body {
+    background: var(--white);
+    color: var(--black);
+
+}
+
+a {
+    color:var(--color1)
+}
+
+/* ***************** NAVBAR ******************* */
+
+nav {
+    background: var(--black);
+    height: 50px;
+    font-family: Rajdhani, Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.9;
+    color: var(--color3);
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 10% 70% 20%;
+    font-size: 2.1rem;
+    font-weight: 700;
+    height: 120px;
+}
+
+.navMidPart ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.navMidPart li {
+   margin: 0 auto;
+}
+
+.connect {
+   margin: 0 auto;
+   color: var(--color1);
+}
+/* A PROPOS */
+
+.aPropos {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+.APropos p{
+    font-weight: 500;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 40px;
+    color: var(--black);
+}
+/* NOS SERVICES */
+
+.nosServices h3{
+    font-family: Rajghani, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color2);
+}
+.Entretien,
+.carrosserie,
+.mecanique {
+    box-shadow: inset 0 1px 0 #d9435033;
+}
+.Entretien {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.entretLeft {
+    background: url(./assets/img/garagiste.jpg) center/cover;
+}
+.entretRight {
+    text-align-last: left;
+    margin: 0 30px 30px 30px;
+}
+.entretRight p {
+    font-weight: 500;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 40px;
+    color: var(--black);
+    margin-top: 10px;
+}
+.carrosserie {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.carrosright {
+    background: url(./assets/img/painter-g14e982cd0_640.jpg) center/cover;
+}
+.carrosLeft {
+    text-align: Right;
+    margin: 0 30px 30px 30px;
+}
+.carrosLeft p {
+    font-weight: 500;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 40px;
+    color: var(--black);
+    margin-top: 10px;
+}
+
+.mecanique {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.mecaLeft {
+    background: url(./assets/img/car-gc9497dadf_640.jpg) center/cover;
+
+}
+.mecaRight {
+    text-align-last: left;
+    margin: 0 30px 30px 30px;
+}
+.mecaRight p {
+    font-weight: 500;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 40px;
+    color: var(--black);
+    margin-top: 10px;
+}
+
+/* AVIS CLIENTS */
+
+.avisClients {
+    background: var(--black);
+    padding: 25px;
+}
+.avisContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.avisContainer h3 {
+    color: var(--color2);
+    font-size: 2rem;
+    text-align: center;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+.avisContainer p {
+text-align: center;
+font-size: 1.3rem;
+
+}
+
+.commContainer{
+    background: #D9D9D9;
+    border-radius: 15px;
+    height: 500px;
+    max-width: 405px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.commContainer h4 {
+    color: var(--color2);
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+.commContainer a {
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background: var(--color2);
+    color: var(--white);
+    border: transparent;
+    font-family: Rajdhani, Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin:  auto;
+    text-align: center;
+    padding: 8px;
+
+}
+.recupAvis {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid var(--black);
+    padding: 5px;
+    max-height: 200px;
+}
+
+
+
+.formCommContainer {
+    background: #D9D9D9;
+    border-radius: 15px;
+    height: 500px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.formCommContainer form {
+    display: grid;
+    grid-template-rows: repeat(1, 80px);
+    padding: 30px 45px 20px;
+}
+
+
+input[type="text"],
+.etoile {
+    margin: 7px 0 7px;
+    border: 1px solid transparent;
+    background: rgb(235, 244, 242);
+    height: 36px;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+.etoile select{
+    border-radius: 15px;
+    background: none;
+    width: 50px;
+    height: 25px;
+
+}
+
+
+.messageComm {
+    margin: 10px;
+} 
+.messageComm  textarea{ 
+    resize: none;
+    margin: 7px 0 7px;
+    border: 1px solid transparent;
+    background: rgb(235, 244, 242);
+    height: 180px;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+
+#cleTransition img{
+    width: 205px;
+    height: 75px;
+    animation: cle ease 12s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes cle {
+    0% {
+        transform: translate(0,0);
+    }
+
+    9% {
+        transform: translate(79px,-22px);
+    }
+    
+    26% {
+        transform: translate(-4px,-5px);
+    }
+    
+    33% {
+        transform: translate(80px,18px);
+    }
+    
+    48% {
+        transform: translate(-17px,-13px);
+    }
+
+    56% {
+        transform: translate(-57px, -35px);
+    }
+
+    71% {
+        transform: translate(-11px,-12px);
+    }
+
+    82% {
+        transform: translate(72px,7px);
+    }
+    
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+/* DE BASE */
+.Recup{
+    width: 90%;
+    background: var(--color3);
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-height: 500px;
+}
+.Recup h3 {
+    font-size: 1.6rem;
+    color: var(--color1);
+    font-weight:700;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+.Recup p {
+    font-size: 1.5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nom h3,
+.nom p,
+.note h3,
+.note p{
+    display: inline;
+    
+}
+.pagination {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-bottom: 1px solid var(--black);
+    padding: 20px;
+}
+
+.Recup a {
+    display: block;
+    height: 70px;
+    border-radius: 15px;
+    background: var(--color2);
+    color: var(--white);
+    border: transparent;
+    font-family: Rajdhani, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    padding: 5px;
+    
+}
+.btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background: var(--color2);
+    color: var(--white);
+    border: transparent;
+    font-family: Rajdhani, Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px;
+
+
+}
+
+
+/* ***************** Footer **************** */
+
+footer {
+    background: var(--white);
+    color: var(--black);
+}
+.enPlus {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.enPlus h3 {
+    text-transform: uppercase;
+    color: var(--color1);
+    font-weight: 700;
+    font-size: 2.1rem;
+    margin: 15px;
+    
+}
+
+.ouverture{
+    background: var(--black);
+    opacity: 0.8;
+    max-width: 482px;
+    margin: 0 auto;
+    max-height: 382px;
+    border-radius: 15px;
+}
+.timeList {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: var(--white);
+    
+}
+#timesOpen {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.background {
+    background: url(./assets/img/garagevisu.jpg) center/cover;
+    height: 92vh;
+}
+
+.infos{
+    background: var(--black);
+    opacity: 0.8;
+    max-width: 360px;
+    margin: 0 auto;
+    max-height: 382px;
+    border-radius: 15px;
+    color: var(--white);
+}
+
+.number h3 {
+    margin-bottom: 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: 700;
+}
+
+.copyright img {
+    width: 205px;
+    height: 75px;
+}
+
+/* RESPONSIV */
+
+@media screen and (max-width: 1100px) {
+   
+
+   .navMidPart,
+   .navRightPart{
+    font-size: 1.2rem;
+    padding: 10px;
+   }
+
+   
+
+}
+@media screen and (max-width: 880px) {
+    .avisContainer {
+        display: block;
+    }
+
+   .navMidPart,
+   .navRightPart{
+    font-size: 1.2rem;
+    padding: 10px;
+   }
+
+   #cleTransition {
+    display: none;
+   }
+
+}
+
+
+
+

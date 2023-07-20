@@ -1,0 +1,74 @@
+.presentation p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.article{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.list-groupe{
+    margin: 15px auto;
+    width: 150px;
+    text-align: center;
+}
+.list-groupe h3,
+.list-groupe p {
+ margin-bottom: 10px;
+}
+
+#filterPrice {
+ margin-left: 20px;
+ width: 150px;
+}
+
+#filterKm {
+  margin-left: 150px;
+  width: 150px;
+}
+
+#filterYears {
+  margin-left: 300px;
+  width: 150px;
+}
+
+#listVehicule{
+  display: flex;
+
+}
+.autoArticle {
+  margin: 10px;
+  background: var(--color3);
+  border-radius: 15px;
+  width: 260px; 
+  padding: 5px;
+  text-align: center;
+}
+
+.autoArticle img {
+  height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.autoArticle h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+
+.filter_data{
+    display: flex;
+}
+
+
+a.btn {
+display: inline-block;
+height: 40px;
+width: 200px;
+text-align: center;
+margin: 5px 25px;
+}
+

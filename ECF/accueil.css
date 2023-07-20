@@ -1,0 +1,20 @@
+.container {
+    height: 17vh;
+    border-bottom: 1px solid var(--color3); 
+    margin: 20px;
+}
+.container h4 {
+    margin: 20px auto;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+
+.container a {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+    .container{
+        height: 25vh;
+    }
+
+}

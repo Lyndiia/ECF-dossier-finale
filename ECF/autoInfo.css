@@ -1,0 +1,38 @@
+.vehiculeInfos {
+    max-width: 85vh;
+    background: var(--black);
+    opacity: 0.8;
+    color: var(--white);
+    margin: 5vh auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.vehiculeInfos h3 {
+    color: var(--color2);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+
+.vehiculeInfos h4 {
+    color: var(--color3);
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-family: Radjhani, Arial, Helvetica, sans-serif;
+}
+
+.vehiculeInfos p {
+    padding: 20px;
+    font-size: 1.1rem;
+
+}
+.demandeInfos p {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 30px;
+}
