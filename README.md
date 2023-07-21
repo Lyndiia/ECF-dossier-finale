@@ -49,7 +49,7 @@ Demarrer le serveur
 - [@Lyndiia](https://www.github.com/Lyndiia)
 
 
-Donnée connexion administrateur : garagevparrot@gmail.com
+## Donnée connexion administrateur : garagevparrot@gmail.com
 
 Mot de passage : admin1234
 
@@ -58,3 +58,6 @@ CREATION ADMINISTRATEUR AVEC : // if (isset($_POST['valider'])) { // if (!empty(
 // $email_saisi = htmlspecialchars($_POST['email']); // $mdp_saisi = htmlspecialchars($_POST['mdp']);
 
 // if ($email_saisi == $emaildefaut and $mdp_saisi == $mdpdefaut) { // $_SESSION['mdp'] = $mdp_saisi; // header('Emplacement : accueilAdmin.php'); // } // } else // echo 'Champs erronés '; // }
+
+## LIENS
+* 
